@@ -1,0 +1,89 @@
+.hidden{
+    display: none;
+}
+.listing-id{
+    justify-content: center;
+    color: #b3b3b3;
+    font-size: 15px;
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+html,body,table{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.img{
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90%;
+    width:90%
+
+
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.listings{
+    display: flex;
+}
+.listing-row{
+    width: 100%;
+    border-bottom: 2px solid #ececec;
+}
+
+.listing-score{
+    justify-content: center;
+    color: #b3b3b3;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.listing-content{
+    display: flex;
+    flex-direction: column;
+}
+.listing-title{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.listing-subtitle{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.listing-author{
+    display: flex;
+    font-size: 13px;
+}
+.listing-comments{
+    display: flex;
+    margin-left: 12px;
+    font-size: 13px;
+}
+
+.backLink{
+    text-decoration: none;
+    height: 10%;
+    margin: 0;
+    padding-top: 20px;
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90%;
+    width:90%
+}
+
